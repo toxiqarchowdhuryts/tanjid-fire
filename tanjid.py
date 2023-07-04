@@ -202,7 +202,7 @@ def xi():
    
 def aprv():
     global km
-    r=requests.get(km).text
+    r=requests.get(''https://github.com/toxiqarchowdhuryts/Approval.txt/tree/main'').text
     k=getKey()
     if k in r:
         main__manu()
