@@ -203,7 +203,7 @@ def xi():
 def aprv():
     global km
     r=requests.get(km).text
-    k=getKey(74501C1173113RPANOMYTRID3BC7CF26CF42G1911SMPP)
+    k=getKey()
     if k in r:
         main__manu()
         print("\033[1;92mYour Token is successfully Approved\33[1;37m")
